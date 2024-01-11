@@ -1,1 +1,14 @@
 # stripe_payment_django
+
+# create environment
+pip3 install -m venv <env_name>
+
+# install requirements
+pip install -r requirements.txt
+
+# migrate all the database tables
+python3 manage.py makemigrations/python manage.py makemigrations
+python3 manage.py migrate/python manage.py migrate
+
+# run python project
+python3 manage.py runserver/python manage.py runserver
