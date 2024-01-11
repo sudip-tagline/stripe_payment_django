@@ -1,7 +1,7 @@
 # stripe_payment_django
 
 # create environment
-pip3 install -m venv <env_name>
+python3 install -m venv <env_name>
 
 # install requirements
 pip install -r requirements.txt
